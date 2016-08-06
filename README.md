@@ -1,5 +1,5 @@
 # itb-tos-scripts
-ThinkOrSwim scripts for In the Black Strategy. This scripts are slightly modified from versions provided by other users. 
+ThinkOrSwim scripts for `In the Black Strategy`. This scripts are slightly modified from versions provided by other users. 
 
 ## Scripts
 
