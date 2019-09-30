@@ -4,5 +4,5 @@ def greenBar = close > open;
 plot insideBarFlag = Double.NaN;
 insideBarFlag.SetDefaultColor(GetColor(1));
 insideBarFlag.DefineColor("insidebarcolor", Color.CURRENT);
+AssignPriceColor(if greenBar then Color.green else Color.red);
 AssignPriceColor(if insideBar then if greenBar then Color.cyan else  Color.dark_ORANGE else Color.CURRENT);
-
